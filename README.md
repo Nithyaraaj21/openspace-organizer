@@ -1,4 +1,3 @@
-# openspace-organizer
 # OpenSpace Organizer
 
 OpenSpace Organizer is a Python program that helps to organize seating arrangements in an open space environment. It allows you to define tables, assign seats randomly and let you know if you need more tables to accomadate peoples.
