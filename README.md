@@ -1,10 +1,10 @@
 # OpenSpace Organizer
 
-OpenSpace Organizer is a Python program that helps to organize seating arrangements in an open space environment. It allows you to define tables, assign seats randomly and let you know if you need more tables to accomadate peoples.
+OpenSpace Organizer is a Python program that helps to organize seating arrangements in an open space environment. It allows you to define tables, assign seats randomly, and let you know if you need more tables to accommodate people.
 
 ## Features
 
-- Create  6 tables with  4 seats of each.
+- Create 6 tables with 4 seats each.
 - Assign people to seats in a randomized manner.
 - Display information about the seating arrangement and the sttistical info.
 - Store the results in an Excel file for later reference.
@@ -25,10 +25,10 @@ OpenSpace Organizer is a Python program that helps to organize seating arrangeme
 
 ## Usage
 
-1. Prepare a list of colleagues in an Excel file named `colleagues.xlsx` via spead sheet or via 'colleagues.py'
+1. Prepare a list of colleagues in an Excel file named `colleagues.xlsx` via spreadsheet or via 'colleagues.py'
 2. Run the main script: python main.py  
 3. Booommmm "You have seating arrangement"
-
+   
 ## Files and Directories
 
 - `main.py`: The main script to run the OpenSpace Organizer.
@@ -44,7 +44,7 @@ OpenSpace Organizer is a Python program that helps to organize seating arrangeme
 
 ## License
 
-Its public "you are free to go"
+It's public "You are free to go"
 
 ## Acknowledgments
 
