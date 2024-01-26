@@ -1,10 +1,10 @@
-
+#import functions from src
 from time import perf_counter
 start_time = perf_counter()
 import pandas as pd
-from src.utils import Store
-from src.table import Table
-from src.openspace import OpenSpace
+from src.utils import Store          # Stores the results in an Excel file named "result.xlxs"
+from src.table import Table          # Functions to define tbale and seat 
+from src.openspace import OpenSpace  #Function to organise seating arrangement
 
 
 if __name__ == "__main__":

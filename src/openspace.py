@@ -1,6 +1,18 @@
+#Import random to randomly place peoples 
 import random as rd
 
-# Define the OpenSpace class
+
+
+
+###########################################################""
+"""Define the OpenSpace
+  Step 1:  Initialize the openspace attributes
+  Step 2:  Calcualte total seat capacity
+  Step 3:  Organize
+
+"""
+###################################################################
+
 class OpenSpace:
     
     def __init__(self, tables):
@@ -20,6 +32,13 @@ class OpenSpace:
                     self.number_of_people += 1
         if people:
             self.people_without_seats = people
+
+########################################################################
+# Create  a display function to display the statistical informations of the open space
+# Calculated Total number of peoples and number of peoples with out seat
+#            
+
+########################################################################
     def display(self):
         print("\nOpenspace info:")
         total_seats = sum(table.capacity for table in self.tables)
@@ -30,7 +49,7 @@ class OpenSpace:
         for i, table in enumerate(self.tables, start=1):
             print(f"Table {i} Information:")
             table.display()
-
+#
         if self.people_without_seats:
             print("\nPeople without a seat:")
             for i, person in enumerate(self.people_without_seats, start=1):
