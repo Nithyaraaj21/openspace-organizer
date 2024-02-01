@@ -40,8 +40,8 @@ OpenSpace Organizer is a Python program that helps to organize seating arrangeme
 ## Dependencies
 
 - `pandas`: Data manipulation library.
-- `openpyxl`: Library for reading and writing Excel files .
-- 'zz': sss
+- `openpyxl`: Library for reading and writing Excel files.
+- 
 ## License
 
 It's public "You are free to go"
