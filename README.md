@@ -36,6 +36,7 @@ OpenSpace Organizer is a Python program that helps to organize seating arrangeme
   - `utils.py`: Utility functions for storing results.
   - `table.py`: Classes and functions related to tables and seats.
   - `openspace.py`: Functions for organizing the open space.
+  -  `openspace.py`: Functions for organizing the open space.
 
 ## Dependencies
 
